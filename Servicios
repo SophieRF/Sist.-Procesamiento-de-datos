@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="milky-way-2695569_1280.jpg" alt="" width="600" height="80">
+        </figure>
+        <figcaption>YaLoSoluciono.com</figcaption>
+    </header>
+    <nav>        <a href="index.html">Inicio</a>
+        <a href="fotos.html">Imagenes</a>
+        <a href="contactos.html">Contactos</a>
+    </nav>
+    <section>
+        <h1>Servicios de la empresa</h1>
+        <h2>Servicio1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem impedit voluptates dicta nemo reprehenderit sed sapiente voluptatibus amet quam. Nisi dolore animi quaerat corrupti nostrum magnam culpa autem facilis quod?</p>
+        <video src="https://www.youtube.com/watch?v=vz4z0RLcAyk"></video>
+        <h2>Servicio2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A asperiores eveniet ut quo quod voluptates eligendi repudiandae deleniti recusandae unde ratione minima molestiae minus adipisci quaerat maiores, impedit, reprehenderit at.</p>
+        <h2>Servicio3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi eaque laudantium deleniti cupiditate? Dolor nihil quia accusamus repellendus voluptatibus reprehenderit suscipit laudantium labore, sequi natus quasi aliquam nobis modi?</p>
+    </section>
+    <footer>
+        <p>Teléfono de contacto: 261 123456</p>
+        <a href="correo@gmail.com">Correo</a>
+        <p>Domicilio: Calle 123, Barrio, Localidad</p>
+        <a href="https://www.google.com.ar/maps">Ubicación GMaps</a>
+    </footer>
+</body>
+</html>
