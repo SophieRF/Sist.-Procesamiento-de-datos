@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="milky-way-2695569_1280.jpg" alt="" width="600" height="80">
+        </figure>
+        <figcaption>YaLoSoluciono.com</figcaption>
+    </header>
+    <nav>
+                <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="fotos.html">Imagenes</a>
+    </nav>
+    <section>
+        <h1>Contactenos!</h1>
+        <p>Envíenos un e-mail a mis_ventas@correo.com.ar y responderemos a la brevedad!</p>
+        <img src="https://image.freepik.com/foto-gratis/gente-saluda-agitando-manos_53876-1135.jpg" alt="">
+    </section>
+    <footer>
+        <p>Teléfono de contacto: 261 123456</p>
+        <a href="correo@gmail.com">Correo</a>
+        <p>Domicilio: Calle 123, Barrio, Localidad</p>
+        <a href="https://www.google.com.ar/maps">Ubicación GMaps</a>
+    </footer>
+</body>
+</html>
