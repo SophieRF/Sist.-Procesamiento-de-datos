@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="milky-way-2695569_1280.jpg" alt="" width="600" height="80">
+        </figure>
+        <figcaption>YaLoSoluciono.com</figcaption>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contactos.html">Contactos</a>
+    </nav>
+    <section>
+        <h1>Desarrollo Software</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://www.mentedidactica.com/wp-content/uploads/2018/10/software-desarrollo1.jpg" width="200" height="auto" alt="">
+                </td>
+                <td>
+                    <img src="https://www.creaxid.com.mx/blog/wp-content/uploads/2020/12/desarrollo-software.png" width="200" height="auto" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="http://cloudmin.mx/wp-content/uploads/2016/01/ALSEA-destacada.jpg" width="200" height="auto" alt="">
+                </td>
+                <td>
+                    <img src="https://facturesoft.pe/wp-content/uploads/2021/07/desarrollo_softare.jpg" width="200" height="auto" alt="">
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>Teléfono de contacto: 261 123456</p>
+        <a href="correo@gmail.com">Correo</a>
+        <p>Domicilio: Calle 123, Barrio, Localidad</p>
+        <a href="https://www.google.com.ar/maps">Ubicación GMaps</a>
+    </footer>
+</body>
+</html>
