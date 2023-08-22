@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalosoluciono.com</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="milky-way-2695569_1280.jpg" alt="" width="600" height="80">
+        </figure>
+        <figcaption>YaLoSoluciono.com</figcaption>
+    </header>
+    <nav>
+        <a href="fotos.html">Imagenes</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contactos.html">Contactos</a>
+    </nav>
+    <section>
+        <h1>Información principal</h1>
+        <h2>Subtítulo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio saepe tempore nostrum. Tempora nobis veritatis mollitia consectetur facilis? Architecto ab vitae ipsam dolorem asperiores fuga eos porro voluptatibus ex nulla?</p>
+        <h2>Subtítulo2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium repudiandae illo quaerat totam ex eaque, tempore et voluptatum placeat accusantium molestiae fuga iure, adipisci voluptatem vero unde deleniti commodi? Quidem!</p>
+        <img src="http://1.bp.blogspot.com/__GJgiZWuVIA/TFHpW_NaQ5I/AAAAAAAAAz4/F7NLfVkBATY/s1600/01-bombillo.png" alt=""  width="200" height="200">
+    </section>
+    <footer>
+        <p>Teléfono de contacto: 261 123456</p>
+        <a href="correo@gmail.com">Correo</a>
+        <p>Domicilio: Calle 123, Barrio, Localidad</p>
+        <a href="https://www.google.com.ar/maps">Ubicación GMaps</a>
+    </footer>
+</body>
+</html>
