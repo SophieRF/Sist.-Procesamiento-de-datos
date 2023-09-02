@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- Formulario --</title>
+</head>
+<body>
+    <h1>Formulario de datos</h1>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id ="nombre" name="nombre" >
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id ="nombre" name="apellido" >
+        <br>
+        <label for="dni">Nro de DNI:</label>
+        <input type="number" name="dni" id="dni">
+
+        <label for="fechaNacimiento">Fecha de nacimiento</label>
+        <input type="date" name = "fechaNacimiento" id="fechaNacimiento">
+        <br>
+        <label for="domicilio">Domicilio</label>
+        <input type="text" id="domicilio" name="domicilio">
+
+        <label for="localidad">Localidad</label>
+        <input type="text" id="localidad" name="localidad">
+        <br>
+        <label for="sexo">Sexo: </label>
+        <select name="s" id="sexo">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+        </select>
+
+        <h3>Idiomas que conoce</h3>
+        <table>
+            <tr>
+                <td>
+                    <label for="idiomas">Español</label>
+                    <input type="checkbox" id="idiomas" name="idiomas">
+                </td>
+                <td>
+                    <label for="idiomas">Ingles</label>
+                    <input type="checkbox" id="idiomas" name="idiomas">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="idiomas">Portugués</label>
+                    <input type="checkbox" id="idiomas" name="idiomas">
+                </td>
+                <td>
+                    <label for="idiomas">Frances</label>
+                    <input type="checkbox" id="idiomas" name="idiomas">  
+                </td>
+            </tr>
+        </table>
+
+        <h3>Lenguajes que conoces mejor: </h3>
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="html">
+
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="css">
+
+        <label for="javascript">JavaScript</label>
+        <input type="radio" id="javascript" name="javascript">
+
+        
+    </form>
+</body>
+</html>
