@@ -56,7 +56,7 @@
             </tr>
         </table>
 
-        <h3>Lenguajes que conoces mejor: </h3>
+        <h3>Lenguaje que conoces mejor: </h3>
         <label for="html">HTML</label>
         <input type="radio" id="html" name="html">
 
