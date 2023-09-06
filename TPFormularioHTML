@@ -1,72 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>-- Formulario --</title>
+    <script>
+        function mostrarDatos(){
+            vnombre = document.getElementById("nombre").value;
+            vapellido = document.getElementById("apellido").value;
+            vdni = document.getElementById("dni").value;
+            vnac = document.getElementById("fechaNacimiento").value;
+            vloc = document.getElementById("localidad").value;
+            vdomic = document.getElementById("domicilio").value;
+
+            // Guardamos en una variable el nombre del campo lenguaje para transformarlo en objeto.
+            var vlenguaje = document.getElementsByName("idiomas");
+            var vLengua = [];
+            for (var i = 0; i < vlenguaje.length; i++) {
+                if (vlenguaje[i].checked) {
+                    vLengua.push(vlenguaje[i].value);
+                }
+            }
+
+            vgen = document.getElementsByName("genero");
+            var vvgen = "";
+            for (var i = 0; i < vgen.length; i++) {
+                if (vgen[i].checked) {
+                    vvgen = vgen[i].value;
+                    break;
+                }
+            }
+
+            vbox1 = document.getElementById("box1").checked ? "HTML" : "";
+            vbox2 = document.getElementById("box2").checked ? "CSS" : "";
+            vbox3 = document.getElementById("box3").checked ? "JavaScript" : "";
+
+            /* Imprime los datos */		
+            document.write("Los datos ingresados fueron: <br/>");
+            document.write("Apellido: " + vapellido + "<br/>");
+            document.write("Nombre: " + vnombre + "<br/>");
+            document.write("DNI: " + vdni + "<br/>");
+            document.write("Fecha de nacimiento: " + vnac + "<br/>");
+            document.write("Domicilio: " + vdomic + "<br/>");
+            document.write("Localidad: " + vloc + "<br/>");
+            document.write("Idiomas que conoce: " + vLengua.join(', ') + "<br/>");
+            document.write("Género: " + vvgen + "<br/>");
+            document.write("Lenguaje 1: " + vbox1 + "<br/>");
+            document.write("Lenguaje 2: " + vbox2 + "<br/>");
+            document.write("Lenguaje 3: " + vbox3 + "<br/>");
+
+            document.write("<br/><strong>Gracias por sus datos</strong>");
+        }
+    </script>
 </head>
 <body>
     <h1>Formulario de datos</h1>
-    <form action="">
+    <form action="" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" id ="nombre" name="nombre" >
+        <input type="text" id="nombre" name="nombre">
 
         <label for="apellido">Apellido:</label>
-        <input type="text" id ="nombre" name="apellido" >
+        <input type="text" id="apellido" name="apellido">
         <br>
+
         <label for="dni">Nro de DNI:</label>
         <input type="number" name="dni" id="dni">
+        <br>
 
         <label for="fechaNacimiento">Fecha de nacimiento</label>
-        <input type="date" name = "fechaNacimiento" id="fechaNacimiento">
-        <br>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+
         <label for="domicilio">Domicilio</label>
         <input type="text" id="domicilio" name="domicilio">
+        <br>
 
         <label for="localidad">Localidad</label>
         <input type="text" id="localidad" name="localidad">
-        <br>
-        <label for="sexo">Sexo: </label>
-        <select name="s" id="sexo">
-            <option value="femenino">Femenino</option>
-            <option value="masculino">Masculino</option>
-        </select>
 
         <h3>Idiomas que conoce</h3>
         <table>
             <tr>
                 <td>
                     <label for="idiomas">Español</label>
-                    <input type="checkbox" id="idiomas" name="idiomas">
+                    <input type="checkbox" id="idiomas" name="idiomas" value="Español">
                 </td>
                 <td>
-                    <label for="idiomas">Ingles</label>
-                    <input type="checkbox" id="idiomas" name="idiomas">
+                    <label for="idiomas">Inglés</label>
+                    <input type="checkbox" id="idiomas" name="idiomas" value="Inglés">
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="idiomas">Portugués</label>
-                    <input type="checkbox" id="idiomas" name="idiomas">
+                    <input type="checkbox" id="idiomas" name="idiomas" value="Portugués">
                 </td>
                 <td>
-                    <label for="idiomas">Frances</label>
-                    <input type="checkbox" id="idiomas" name="idiomas">  
+                    <label for="idiomas">Francés</label>
+                    <input type="checkbox" id="idiomas" name="idiomas" value="Francés">
                 </td>
             </tr>
         </table>
 
-        <h3>Lenguaje que conoces mejor: </h3>
-        <label for="html">HTML</label>
-        <input type="radio" id="html" name="html">
+        <h3>Sexo</h3>
+        <label for="genero">Femenino</label>
+        <input type="radio" value="femenino" name="genero">
 
-        <label for="css">CSS</label>
-        <input type="radio" id="css" name="css">
+        <label for="masculino">Masculino</label>
+        <input type="radio" value="masculino" name="genero">
+        <br>
 
-        <label for="javascript">JavaScript</label>
-        <input type="radio" id="javascript" name="javascript">
-
+        <h3>Lenguajes que conoce</h3>
+        <label for="box1"> Java </label>
+        <input type="checkbox" id="box1" name="box1" value="Java">
+       
+        <label for="box2">Python</label>
+        <input type="checkbox" id="box2" name="box2" value="Python">
         
+        <label for="box3">JavaScript</label>
+        <input type="checkbox" id="box3" name="box3" value="JavaScript">
+
+        <br>
+        <br>
+        <button type="button" onclick="mostrarDatos()">Enviar y Mostrar</button>
+        <button type="reset">Borrar</button>
     </form>
 </body>
 </html>
